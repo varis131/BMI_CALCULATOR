@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #292685;
+    margin: 0;
+    padding: 0;
+
+}
+body, html {
+    height: 100%;
+}
+body nav  {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+body nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    background-color: #099e09;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container form button:hover {
+    background-color: #4cae4c;
+}
+.container form p {
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+.container form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.container form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+#weight-guide {
+   padding: 10px;
+   text-align: center;
+   font-family: sans-serif;
+}
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+  
